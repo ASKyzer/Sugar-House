@@ -867,11 +867,11 @@ footer {
   background-size: cover;
   background-position: center;
   color: white;
-  height: 200px;
+  height: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 25px;
+  /* padding: 10px 25px; */
 }
   .gallery-header-col h1 {
     text-align: center;
@@ -896,7 +896,7 @@ flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   justify-content: center;
-  padding: 40px 5px 30px 5px;
+  padding: 20px 5px 10px 5px;
 }
   .button {
     display: inline-block;
@@ -1239,6 +1239,7 @@ flex-wrap: wrap;
 
 #staff-container {
   background-color: #e7ddf3;
+  padding-top: 75px;
 }
   #staff-container div .row-fluid {
     margin-top: 25px;
@@ -1440,10 +1441,10 @@ flex-wrap: wrap;
   .google-maps {
     padding-bottom: 50%;
   }
-  .gallery-header {
+  /* .gallery-header {
     margin-top: 70px;
     height: 100px;
-  }
+  } */
   .gallery-header-col h1 {
     font-size: 34px;
   }
@@ -1541,9 +1542,9 @@ flex-wrap: wrap;
 
 @media (min-width: 0px) and (max-width: 831px) {
   /* made the header small to look better for shorter screen height*/
-  .gallery-header {
+  /* .gallery-header {
     height: 120px;
-  }
+  } */
   .gallery-header-col h1 {
     font-size: 42px;
     margin-left: 25px;
